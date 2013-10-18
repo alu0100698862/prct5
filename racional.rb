@@ -4,8 +4,8 @@
 
 # Fichero en el que se implementa la clase para crear objetos racionales
 
-require "gcd"
-require "mcm"
+require "gcd"   #fichero que contiene el maximo comun divisor
+require "mcm"   #fichero que contiene el minimo comun multiplo
 
 class Fraccion
    attr_reader :p, :q

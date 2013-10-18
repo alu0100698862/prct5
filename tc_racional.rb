@@ -7,9 +7,9 @@ require "test/unit"
 
 class TestFraccion < Test::Unit::TestCase
  
-  def setup
-    @fraccion1 = Fraccion.new(1,2) 
-    @fraccion2 = Fraccion.new(3,4)
+  def setup   # crear elementos
+    @fraccion1 = Fraccion.new(1,2)   # primera fraccion
+    @fraccion2 = Fraccion.new(3,4)   #segunda fraccion
   end
   
   def tear_down
